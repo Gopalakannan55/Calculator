@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HTML Code-->
+    <center>
+    <div id="main">
+    <div><input type="text" id="input"></div>
+    <div>
+        <button onclick="displayadd('(')" class="op">(</button>
+        <button onclick="displayadd(')')" class="op">)</button>
+        <button onclick="displayadd('%')" class="op" >%</button>
+        <button onclick="clear()" class="ac">AC</button>
+    </div>
+    
+    <div>
+        <button onclick="displayadd('7')">7</button>
+        <button onclick="displayadd('8')">8</button>
+        <button onclick="displayadd('9')">9</button>
+        <button onclick="displayadd('/')" class="op">/</button>
+    </div>
+    <div>
+        <button onclick="displayadd('4')">4</button>
+        <button onclick="displayadd('5')">5</button>
+        <button onclick="displayadd('6')">6</button>
+        <button onclick="displayadd('*')" class="op">*</button>
+    </div>
+    <div>
+        <button onclick="displayadd('1')">1</button>
+        <button onclick="displayadd('2')">2</button>
+        <button onclick="displayadd('3')">3</button>
+        <button onclick="displayadd('-')" class="op">-</button>
+    </div>
+    <div>
+        <button onclick="displayadd('0')">0</button>
+        <button onclick="displayadd('.')">.</button>
+        <button onclick="calculate()" class="eql">=</button>
+        <button onclick="displayadd('+')" class="op">+</button>
+    </div>
+</div>
+</center>
+<script src="script.js">//Javascript Code
+   
+</script>  
+</body>
+</html>
